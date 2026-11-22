@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cssyの自己紹介</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: sans-serif;
+      line-height: 1.7;
+      color: #333333;
+      background-color: #f4f7fa;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 720px;
+      margin: 24px auto;
+      padding: 24px;
+      background-color: #ffffff;
+      border-radius: 8px;
+    }
+    header {
+      border-bottom: 2px solid #2b6cb0;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      color: #1a365d;
+      margin: 0 0 8px 0;
+    }
+    .subtitle {
+      color: #555555;
+      font-size: 0.95rem;
+      margin: 0 0 16px 0;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    nav a {
+      display: inline-block;
+      padding: 6px 12px;
+      background-color: #ebf8ff;
+      color: #2b6cb0;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+    nav a:hover {
+      background-color: #bee3f8;
+    }
+    section {
+      margin-bottom: 32px;
+    }
+    h2 {
+      font-size: 1.3rem;
+      color: #2b6cb0;
+      border-left: 4px solid #2b6cb0;
+      padding-left: 10px;
+      margin-bottom: 12px;
+    }
+    p {
+      margin: 0 0 12px 0;
+    }
+    a.external-link {
+      color: #2b6cb0;
+      font-weight: bold;
+    }
+    footer {
+      border-top: 1px solid #e2e8f0;
+      padding-top: 16px;
+      font-size: 0.85rem;
+      color: #666666;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>cssyの自己紹介</h1>
+      <p class="subtitle">高校時代に力を入れたことや、大学で学んでいることを知ってもらうためのページです。</p>
+      <nav aria-label="ページ内メニュー">
+        <ul>
+          <li><a href="#intro">自己紹介</a></li>
+          <li><a href="#learning">今学んでいること</a></li>
+          <li><a href="#future">これからやってみたいこと</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="intro">
+        <h2>自己紹介</h2>
+        <p>はじめまして、cssyです。高校時代、学校を盛り上げたいという思いや先輩たちへの憧れから応援団に所属し、体育祭などで踊る応援に取り組みました。活動するなかでは、練習や本番の時期の暑さに加え、メンバー同士で動きの連携を合わせることの難しさがありました。この課題を乗り越えるため、全体で合わせる練習では手を抜かずに取り組み、空いた時間にも少し自主練習を重ねました。その結果、本番ではメンバーと息を合わせて踊ることができ、自分自身もとても楽しむことができました。</p>
+      </section>
+
+      <section id="learning">
+        <h2>今学んでいること</h2>
+        <p>大学では、プログラミングやネットワークなど情報工学の基礎を学んでいます。基礎を大切にしながら、手を動かして仕組みを理解することを心がけています。</p>
+        <p>Webの仕組みやHTML・CSSを調べるときは、<a href="https://mozilla.org" target="_blank" rel="noopener noreferrer" class="external-link">MDN Web Docs</a>を参考にしています。</p>
+      </section>
+
+      <section id="future">
+        <h2>これからやってみたいこと</h2>
+        <p>学んだ知識を活かして、自分のアイデアを形にしたWebサイトや簡単なアプリを作ってみたいです。まずはこのサイトを改善していくことから始めます。</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 cssy</p>
+    </footer>
+  </div>
+</body>
+</html>
